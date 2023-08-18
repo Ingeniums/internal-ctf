@@ -1,0 +1,17 @@
+# docker-compose up
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      - DB_URL=mongodb://db:27017/ctf
+  db:
+    image: mongo:latest
+    volumes:
+      - mongodata:/data/db
+volumes:
+  mongodata: {}

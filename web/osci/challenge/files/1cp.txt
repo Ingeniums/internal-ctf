@@ -1,0 +1,21 @@
+flag: you think it's easy like this hh ?
+1cp: first year prepa
+Semestre 1
+ALG1 - Algèbre 1: Introduction to algebraic concepts and operations.
+ALSDS - Algorithmique et structures de données statiques: Study of algorithms and static data structures.
+ANA1 - Analyse Mathématique 1: Introduction to mathematical analysis.
+ARCHI1 - Architecture des ordinateurs 1: Understanding computer architecture principles.
+BWEB - Bureautique et Web: Introduction to office tools and web technologies.
+ELECT - Electricité: Fundamentals of electricity.
+SYST1 - Introduction au Système d’exploitation 1: Introduction to operating systems.
+TEE: Technical and engineering education.
+
+Semestre 2
+ALG2 - Algèbre 2: Advanced topics in algebra.
+ALSDD - Algorithmique et structures de données dynamiques: Study of algorithms and dynamic data structures.
+ANA2 - Analyse Mathématique 2: Advanced topics in mathematical analysis.
+ANG1 - Anglais 1: English language course 1.
+ELECF1 - Electronique Fondamentale 1: Fundamentals of electronics.
+MECA - Mécanique du Point: Introduction to point mechanics.
+SYST2 - Introduction au Système d’exploitation 2: Advanced topics in operating systems.
+TEO: Technical and engineering optimization.

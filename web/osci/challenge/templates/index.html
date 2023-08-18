@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prepa Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f0f0f0;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    #resultContainer {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #ffffff;
+    }
+    .form-group {
+    margin-bottom: 20px;
+  }
+
+
+  </style>
+</head>
+<body>
+  <h1>Prepa Store Search</h1>
+  <form id="searchForm" method="post" action="/">
+    <div class="form-group">
+      <label for="keyword">Keyword:</label>
+      <input type="text" id="keyword" name="keyword" value="1cp">
+    </div>
+    <div class="form-group">
+      <label for="fileName">File Name:</label>
+      <select id="fileName" name="fileName">
+        <option value="1cp.txt">1CP</option>
+        <option value="2cp.txt">2CP</option>
+        <option value="1cs.txt">1CS</option>
+      </select>
+    </div>
+    <input type="submit" value="Search">
+  </form>
+ 
+
+  <div id="resultContainer">{{ result }}</div>
+</body>
+</html>
+
+
+
+

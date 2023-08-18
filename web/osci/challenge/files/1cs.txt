@@ -1,0 +1,21 @@
+flag: you think it's easy like this hh ?
+1cs: holla heaven ?
+Semestre 1
+Système d'Exploitation 1: Introduction to operating systems.
+Réseaux 1: Fundamentals of computer networks.
+Introduction au Génie Logiciel: Introduction to software engineering.
+Bases de Données: Database fundamentals.
+Théorie des Langages: Theory of programming languages.
+Analyse Numérique: Numerical analysis.
+Recherche Opérationnelle: Operations research.
+Langue Anglaise 1: English language course.
+
+Semestre 2
+Système d'Exploitation 2: Advanced topics in operating systems.
+Réseaux 2: Advanced topics in computer networks.
+Architectures Évoluées des Ordinateurs: Advanced computer architectures.
+Analyse et conception des Systèmes d’information: Analysis and design of information systems.
+Langages et Outils du Web: Web languages and tools.
+Introduction à la Sécurité Informatique: Introduction to computer security.
+Gestion de Projets: Project management.
+Langue Anglaise 2: English language course.

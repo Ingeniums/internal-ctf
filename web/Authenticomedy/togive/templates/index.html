@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="container d-flex justify-content-center align-items-center" style="height: 70vh;">
+        <div class="text-center">
+            <h1>Welcome to the Home Page</h1>
+            {% if flag %}
+                <p>{{ flag }}</p>
+            {% else %}
+                <p>Nothing to show here!</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

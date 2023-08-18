@@ -1,0 +1,32 @@
+flag: you think it's easy like this hh ?
+2cp: second year mn lprepa
+Semestre 1
+ALG3 - Algèbre 3: Advanced topics in algebra.
+ANA3 - Analyse Mathématique 3: Advanced topics in mathematical analysis.
+ANG2 - Anglais: English language course.
+ARCHI2 - Architecture des ordinateurs 2: Advanced topics in computer architecture.
+ECON - Economie d'entreprise: Introduction to business economics.
+ELECF2 - Electronique fondamentale 2: Advanced topics in electronics.
+PRST1 - Probabilité & Statistiques 1: Introduction to probability and statistics.
+SFSD - Structure Fichiers et Structures de Données: Study of file structures and data structures.
+Examens: Examination period.
+
+Semestre 2
+ANA4 - Analyse Mathématique 4: Advanced topics in mathematical analysis.
+ANG3 - Anglais: English language course.
+ISI - Système d’Information: Introduction to information systems.
+LOGM - Logique Mathématique: Study of mathematical logic.
+OOE - Optique et ondes électromagnétiques: Introduction to optics and electromagnetic waves.
+POO - Programmation orientée objet: Object-oriented programming.
+PRST2 - Probabilité & Statistiques 2: Advanced topics in probability and statistics.
+Examens: Examination period.
+
+Concours
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
