@@ -1,0 +1,23 @@
+author: godsword
+category: reverse
+connection_info: nc -v ctf.ingeniums.club 1336
+description: "> idk
+
+  "
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/duel
+flags:
+  - ingeniums{c0ngr4t5_y0u_b3sted_7h3_b0t_1n_4_du3l}
+image: .
+name: duel
+state: hidden
+tags:
+  - reverse
+type: dynamic
+value: 500
+version: "0.1"

@@ -1,0 +1,24 @@
+author: karudo
+author_link: https://github.com/itskarudo
+category: pwn
+connection_info: nc -v ctf.ingeniums.club 1337
+description: "> self explanatory!
+
+  "
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chal
+flags:
+  - ingeniums{sEcREt_fuNctI0n$_ARe_nO_m4TCh_F0r_y0U!}
+image: .
+name: ret2win
+state: hidden
+tags:
+  - pwn
+type: dynamic
+value: 500
+version: "0.1"

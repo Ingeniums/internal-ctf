@@ -1,0 +1,23 @@
+author: godsword
+category: pwn
+connection_info: nc -v ctf.ingeniums.club 1339
+description: "> idk
+
+  "
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chal
+flags:
+  - ingeniums{5hellcode_inj3c71on_1s_d4ng3rou5!!}
+image: .
+name: shellcode1
+state: hidden
+tags:
+  - pwn
+type: dynamic
+value: 500
+version: "0.1"

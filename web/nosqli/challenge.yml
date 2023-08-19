@@ -1,0 +1,23 @@
+author: poysa213
+category: web
+connection_info: https://ctf.ingeniums.club:3000
+description: "> idk
+
+  "
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./togive.zip
+flags:
+  - ingeniums{1t_w4s_4_n0sql1_4ft3r_4ll}
+image: .
+name: nosqli
+state: hidden
+tags:
+  - web
+type: dynamic
+value: 500
+version: "0.1"

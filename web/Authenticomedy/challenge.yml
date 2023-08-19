@@ -1,0 +1,23 @@
+author: poysa213
+category: web
+connection_info: https://ctf.ingeniums.club:5000
+description: "> idk
+
+  "
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./togive.zip
+flags:
+  - ingeniums{h4cker$_p4Rty_in_BrokEN_AutheNt1cATi0n's_B4CkY4RD}
+image: .
+name: Authenticomedy
+state: hidden
+tags:
+  - web
+type: dynamic
+value: 500
+version: "0.1"

@@ -1,0 +1,23 @@
+author: poysa213
+category: web
+connection_info: https://ctf.ingeniums.club:6001
+description: "> idk
+
+  "
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./togive.zip
+flags:
+  - ingeniums{cOmMAND_1NJECt10n?_n0t_A_pR0BLeM_F0r_y0u$}
+image: .
+name: osci
+state: hidden
+tags:
+  - web
+type: dynamic
+value: 500
+version: "0.1"

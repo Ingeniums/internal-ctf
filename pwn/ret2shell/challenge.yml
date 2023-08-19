@@ -1,0 +1,26 @@
+author: karudo
+author_link: https://github.com/itskarudo
+category: pwn
+connection_info: nc -v ctf.ingeniums.club 1338
+description: "> impressive, let's see what can you do without `gets`.
+
+  "
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chal
+  - ./challenge/libc.so.6
+  - ./challenge/ld-2.35.so
+flags:
+  - ingeniums{v3ry_1mpr3551v3_f3110w_f0rm4tt3r}
+image: .
+name: ret2shell
+state: hidden
+tags:
+  - pwn
+type: dynamic
+value: 500
+version: "0.1"
