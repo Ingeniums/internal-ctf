@@ -14,9 +14,8 @@ RUN chmod -R a-w /app
 
 USER inge
 
-ENV FLASK_APP=app.py
-ENV FLASK_RUN_HOST=0.0.0.0
 
 EXPOSE 5000
 
-CMD ["flask", "run"]
+CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "app:app"]
+
