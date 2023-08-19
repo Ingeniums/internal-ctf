@@ -25,5 +25,5 @@ ENV FLASK_APP=main.py
 
 EXPOSE 80
 
-CMD ["sh", "-c", "gunicorn -w 4 -b 0.0.0.0:5000 main:app & python3 /app/internal.py"]
+CMD ["sh", "-c", "gunicorn -w 2 -b 0.0.0.0:5000 main:app & python3 /app/internal.py"]
 
