@@ -6,8 +6,6 @@ FLAG = 'ingeniums{thAT$_TOO_muCh_$sRF_4nD_S3SS1oN_f0RGe}'
 
 @app.route('/')
 def index():
-   
- 
     return render_template('admin.html', flag=FLAG)
     
     

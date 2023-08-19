@@ -3,3 +3,4 @@ selenium
 pillow
 webdriver_manager
 flask_session 
+Gunicorn
