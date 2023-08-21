@@ -1,0 +1,21 @@
+author: karudo
+category: reverse
+description: |
+  > in your way through the jungle you stumble upon a twisted beast, can you make your way through its den?
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./enc.py
+flags:
+  - ingeniums{t4m3d_th3_w1ld_sn4k3}
+image: .
+name: cobra
+state: hidden
+tags:
+  - reverse
+type: dynamic
+value: 500
+version: "0.1"
