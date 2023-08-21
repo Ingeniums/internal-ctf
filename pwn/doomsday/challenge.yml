@@ -8,7 +8,7 @@ description: |
 difficulty: hard
 extra:
   decay: 50
-  initial: 1500
+  initial: 1000
   minimum: 50
 files:
   - ./challenge/chal_patched
@@ -22,5 +22,5 @@ state: hidden
 tags:
   - pwn
 type: dynamic
-value: 1500
+value: 1000
 version: "0.1"
