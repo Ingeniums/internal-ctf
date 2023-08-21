@@ -1,10 +1,10 @@
 from pwn import *
 
-context.binary = elf = ELF('chal_patched')
+context.binary = elf = ELF('../challenge/chal_patched')
 
-r = elf.process()
-assert r
-# r = remote("0.0.0.0", 1024)
+# r = elf.process()
+# assert r
+r = remote("0.0.0.0", 1335)
 
 def malloc(index, size):
     r.send(b'1\n')

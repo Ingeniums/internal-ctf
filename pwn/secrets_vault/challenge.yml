@@ -1,0 +1,25 @@
+author: godsword
+category: pwn
+connection_info: nc -v ctf.ingeniums.club 1335
+description: "> idk
+
+  "
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chal_patched
+  - ./challenge/ld.so.2
+  - ./challenge/libc.so.6
+flags:
+  - ingeniums{7c4ch3_p01son1ng_c4n_b3_v3ry_d4ngerous}
+image: .
+name: secrets vault
+state: hidden
+tags:
+  - pwn
+type: dynamic
+value: 500
+version: "0.1"
