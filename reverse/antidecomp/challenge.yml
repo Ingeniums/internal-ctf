@@ -1,0 +1,21 @@
+author: karudo
+category: reverse
+description: |
+  > Your decompilers aren't useful in my dungeon!
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chal
+flags:
+  - ingeniums{m45t3r_45s3mb13r!}
+image: .
+name: antidecomp
+state: hidden
+tags:
+  - reverse
+type: dynamic
+value: 500
+version: "0.1"
