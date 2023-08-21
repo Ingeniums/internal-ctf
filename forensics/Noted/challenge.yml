@@ -1,0 +1,23 @@
+author: StaRaz_xX
+category: forensics
+description: |
+  > taal se taal mila" ~~ this song is one of my fav! taal in indian means melody ~ looks like it contains a Meta-message behind the lyrics..
+  last OCTober i downloaded this audio file to listen to the song but it looks like the notes r a bit weird ?
+  could u discover what's happening here ?
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./Oct-taal se taal mila.wav
+flags:
+  - ingeniums{Do_Re_mI_you_got_me}
+image: .
+name: Noted
+state: hidden
+tags:
+  - forensics
+type: dynamic
+value: 500
+version: "0.1"
