@@ -1,0 +1,26 @@
+author: karudo
+author_link: https://github.com/itskarudo
+category: pwn
+connection_info: nc -v ctf.ingeniums.club 1341
+description: |
+  > the final challenge.
+
+difficulty: hard
+extra:
+  decay: 50
+  initial: 1500
+  minimum: 50
+files:
+  - ./challenge/chal_patched
+  - ./challenge/libc.so.6
+  - ./challenge/ld-linux-x86-64.so.2
+flags:
+  - ingeniums{l34k_l34k_l34k_1n70_gl0ry!}}
+image: .
+name: doomsday
+state: hidden
+tags:
+  - pwn
+type: dynamic
+value: 1500
+version: "0.1"
