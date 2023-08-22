@@ -5,8 +5,6 @@
 
 #define MAX_PASSWORDS 10
 
-bool is_admin = false;
-
 static char *passwords[MAX_PASSWORDS];
 
 void disable_buffering(void) {
@@ -20,8 +18,7 @@ void menu() {
   puts("1. create password");
   puts("2. print password");
   puts("3. delete password");
-  puts("4. change admin's password");
-  puts("5. exit");
+  puts("4. exit");
 }
 
 void do_create(void) {
@@ -78,18 +75,11 @@ void do_delete(void) {
   free(passwords[index]);
 }
 
-void do_edit(void) {
-  char buffer[16];
-  printf("password: ");
-  gets(buffer);
-  puts("Edited!");
-}
-
 int main(int argc, char *argv[]) {
   disable_buffering();
   int choice = -1;
 
-  while (choice != 5) {
+  while (choice != 4) {
     menu();
     printf("> ");
     scanf("%d", &choice);
@@ -103,12 +93,6 @@ int main(int argc, char *argv[]) {
       break;
     case 3:
       do_delete();
-      break;
-    case 4:
-      if (is_admin)
-        do_edit();
-      else
-        puts("only an admin can do that!");
       break;
     default:
       break;
