@@ -1,9 +1,10 @@
 author: godsword
 category: reverse
 connection_info: nc -v ctf.ingeniums.club 1336
-description: "> idk
+description: |
+  > win the duel and you shall get the flag.
 
-  "
+  author: @godsword
 difficulty: easy
 extra:
   decay: 50

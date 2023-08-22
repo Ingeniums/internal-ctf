@@ -1,9 +1,10 @@
 author: godsword
 category: pwn
 connection_info: nc -v ctf.ingeniums.club 1335
-description: "> idk
+description: |
+  > check out my amazing secrets vault!
 
-  "
+  author: @godsword
 difficulty: medium
 extra:
   decay: 50

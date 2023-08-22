@@ -1,9 +1,10 @@
 author: godsword
 category: pwn
 connection_info: nc -v ctf.ingeniums.club 1340
-description: "> idk 2
+description: |
+  > let's see if you can get a shell now
 
-  "
+  author: @godsword
 difficulty: easy
 extra:
   decay: 50

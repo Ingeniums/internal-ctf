@@ -1,9 +1,10 @@
 author: godsword
 category: pwn
 connection_info: nc -v ctf.ingeniums.club 1339
-description: "> idk
+description: |
+  > i'm a bad programmer...
 
-  "
+  author: @godsword
 difficulty: easy
 extra:
   decay: 50
