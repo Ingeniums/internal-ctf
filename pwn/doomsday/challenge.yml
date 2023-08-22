@@ -11,11 +11,11 @@ extra:
   initial: 1000
   minimum: 50
 files:
-  - ./challenge/chal_patched
+  - ./challenge/chal
   - ./challenge/libc.so.6
   - ./challenge/ld-linux-x86-64.so.2
 flags:
-  - ingeniums{l34k_l34k_l34k_1n70_gl0ry!}}
+  - ingeniums{l34k_l34k_l34k_1n70_gl0ry!}
 image: .
 name: doomsday
 state: hidden
