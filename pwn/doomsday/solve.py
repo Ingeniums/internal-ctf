@@ -3,8 +3,8 @@ from pwn import *
 context.binary = elf = ELF('./chal')
 libc = ELF("./libc.so.6")
 
-p = elf.process()
-# p = remote("localhost", 1341)
+# p = elf.process()
+p = remote("ctf.ingeniums.club", 1341)
 assert p
 
 def do_create(index, size, password):

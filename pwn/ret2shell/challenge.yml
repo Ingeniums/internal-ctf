@@ -1,10 +1,11 @@
-author: karudo
+author: itskarudo
 author_link: https://github.com/itskarudo
 category: pwn
 connection_info: nc -v ctf.ingeniums.club 1338
-description: "> impressive, let's see what can you do without `gets`.
+description: |
+  > impressive, let's see what can you do without getting anything.
 
-  "
+  author: @itskarudo
 difficulty: medium
 extra:
   decay: 50

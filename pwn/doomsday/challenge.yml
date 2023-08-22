@@ -1,9 +1,11 @@
-author: karudo
+author: itskarudo
 author_link: https://github.com/itskarudo
 category: pwn
 connection_info: nc -v ctf.ingeniums.club 1341
 description: |
   > the final challenge.
+
+  author: @itskarudo
 
 difficulty: hard
 extra:

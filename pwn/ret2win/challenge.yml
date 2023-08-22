@@ -1,10 +1,11 @@
-author: karudo
+author: itskarudo
 author_link: https://github.com/itskarudo
 category: pwn
 connection_info: nc -v ctf.ingeniums.club 1337
-description: "> self explanatory!
+description: |
+  > self explanatory!
 
-  "
+  author: @itskarudo
 difficulty: easy
 extra:
   decay: 50
