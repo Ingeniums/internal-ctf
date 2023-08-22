@@ -1,0 +1,27 @@
+author: m0urtada
+category: crypto
+description: |
+  > My friend and I always try new things in computer science, so we've created our own world with our own alphabet. He sent me this message "RKWAXNDKINQPTBPUJKRYQWYANW", and I want to decrypt it. Can you help me? 
+  >
+  > The **CLUB** is available if you need it.
+  >
+  > NB: dont fotget the flag format.
+
+  author: @m0urtada
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./matrice.txt
+flags:
+  - ingeniums{ITSOUROWNVIGENERE}
+image: .
+name: VigeNot
+state: hidden
+tags:
+  - crypto
+type: dynamic
+value: 500
+version: "0.1"

@@ -1,0 +1,25 @@
+author: m0urtada
+category: crypto
+description: |
+  > In November of last year, the Ingeniums club celebrated its FIFTH anniversary.
+  >
+  > At the party we played the ZigZag game, do you know it?
+  >
+  > If you don't decrypt this: `ist_1nm{o_31cpgu1namt_heit__a5a3}n5g_r`
+
+  author: @m0urtada
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{1t5_not_a_gam3_1t5_a_c1ph3r}
+image: .
+name: Birthday Party Game
+state: hidden
+tags:
+  - crypto
+type: dynamic
+value: 500
+version: "0.1"

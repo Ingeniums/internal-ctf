@@ -1,0 +1,27 @@
+author: m0urtada
+category: crypto
+description: |
+  > My grandma always tells me to organize her phone contact list, but I'm really tired.
+  >
+  > Could you do it for me?
+  >
+  > `6624446255555442999282`
+  >
+  > P.S: Don't forget the flag format.
+
+  author: @m0urtada
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{NAIMALKHAYATA}
+image: .
+name: Dragon
+state: hidden
+tags:
+  - crypto
+type: dynamic
+value: 500
+version: "0.1"

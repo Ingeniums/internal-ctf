@@ -1,0 +1,31 @@
+author: m0urtada
+category: crypto
+description: |
+  > From the age of 13 to 16, I embarked on a curious venture, trying my luck 64 times to crack my dad's password.
+  >
+  > Alas, each endeavor met defeat.
+  >
+  > Now, the challenge passes to you. 
+  >
+  > Could you be the one to unveil the elusive key?
+  >
+  > Care to give it a shot?
+
+  author: @m0urtada
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./enc.txt
+flags:
+  - ingeniums{i_hope_the_description_was_helpful}
+image: .
+name: Count-based Analysis
+state: hidden
+tags:
+  - crypto
+type: dynamic
+value: 500
+version: "0.1"
