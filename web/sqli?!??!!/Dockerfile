@@ -1,5 +1,5 @@
-# sudo docker build -t nosqli .
-# sudo docker run -d -p 3000:3000 --rm nosqli
+# sudo docker build -t sqli .
+# sudo docker run -d -p 3000:3000 --rm sqli
 FROM node:16
 
 WORKDIR /app
