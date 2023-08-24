@@ -21,9 +21,9 @@ RUN CHROME_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE
 ENV DISPLAY=:99
 
 ENV FLASK_APP=main.py
-ENV FLASK_RUN_HOST=0.0.0.0
-ENV FLASK_RUN_PORT=5000
+
 
 EXPOSE 80
 
-CMD flask run --host=0.0.0.0 & python3 /app/internal.py
+CMD ["sh", "-c", "gunicorn -w 2 -b 0.0.0.0:5000 main:app & python3 /app/internal.py"]
+

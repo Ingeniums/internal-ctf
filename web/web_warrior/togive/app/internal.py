@@ -6,8 +6,6 @@ FLAG = '<REDACTED>'
 
 @app.route('/')
 def index():
-   
- 
     return render_template('admin.html', flag=FLAG)
     
     
