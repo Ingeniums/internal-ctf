@@ -2,7 +2,8 @@ author: poysa213
 category: web
 connection_info: http://web.ctf.ingeniums.club:5000
 description: |
-  < Simply behave as an administrator.
+  > Simply behave as an administrator.
+
   author: @poysa
 difficulty: easy
 extra:
