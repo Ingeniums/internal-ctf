@@ -1,0 +1,23 @@
+author: sabilhacker
+category: misc
+description: |
+  > idk
+
+  author: @sabilhacker
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - app.py
+flags:
+  - ingeniums{GLlOOOOO00000B_FuNcT1on_1iiiS5_Coo000LL}
+image: .
+name: globglob
+state: hidden
+tags:
+  - misc
+type: dynamic
+value: 500
+version: "0.1"
