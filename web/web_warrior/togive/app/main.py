@@ -7,7 +7,7 @@ import io
 import base64
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '<REDACTED>'
+app.config['SECRET_KEY'] = '955f68cb0e4a3fe49b8d82f473b864c9ea319a8d4005425d7751092f4300f0f4'
 
 @app.route('/')
 def index():
