@@ -1,6 +1,6 @@
 author: godsword
 category: pwn
-connection_info: nc -v ctf.ingeniums.club 1339
+connection_info: nc -v chal.ctf.ingeniums.club 1339
 description: |
   > i'm a bad programmer...
 

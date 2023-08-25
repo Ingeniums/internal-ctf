@@ -1,7 +1,7 @@
 author: itskarudo
 author_link: https://github.com/itskarudo
 category: pwn
-connection_info: nc -v ctf.ingeniums.club 1337
+connection_info: nc -v chal.ctf.ingeniums.club 1337
 description: |
   > self explanatory!
 

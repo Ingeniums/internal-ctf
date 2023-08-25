@@ -1,6 +1,6 @@
 author: godsword
 category: pwn
-connection_info: nc -v ctf.ingeniums.club 1335
+connection_info: nc -v chal.ctf.ingeniums.club 1335
 description: |
   > check out my amazing secrets vault!
 

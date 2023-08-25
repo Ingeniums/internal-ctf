@@ -1,7 +1,7 @@
 author: itskarudo
 author_link: https://github.com/itskarudo
 category: pwn
-connection_info: nc -v ctf.ingeniums.club 1338
+connection_info: nc -v chal.ctf.ingeniums.club 1338
 description: |
   > impressive, let's see what can you do without getting anything.
 

@@ -1,6 +1,6 @@
 author: godsword
 category: pwn
-connection_info: nc -v ctf.ingeniums.club 1340
+connection_info: nc -v chal.ctf.ingeniums.club 1340
 description: |
   > let's see if you can get a shell now
 

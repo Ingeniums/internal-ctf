@@ -1,6 +1,6 @@
 author: godsword
 category: reverse
-connection_info: nc -v ctf.ingeniums.club 1336
+connection_info: nc -v chal.ctf.ingeniums.club 1336
 description: |
   > win the duel and you shall get the flag.
 
