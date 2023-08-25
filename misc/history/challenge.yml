@@ -1,0 +1,22 @@
+author: sabilhacker
+category: misc
+connection_info: nc -v ctf.ingeniums.club 8080
+description: |
+  > idk
+
+  author: @sabilhacker
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{n3v3r_Wr1te_p455W0rd_pl41n_txt_1n_t3rmin4l}
+image: .
+name: history
+state: hidden
+tags:
+  - misc
+type: dynamic
+value: 500
+version: "0.1"

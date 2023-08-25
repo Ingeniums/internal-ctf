@@ -1,0 +1,24 @@
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y socat  && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN useradd -m -s /bin/bash inge
+
+RUN useradd -m -s /bin/bash 4dm1n
+
+COPY ./entrypoint.sh /bin/entrypoint.sh
+
+RUN echo 'inge:ingeingeinge' | chpasswd 
+
+RUN echo '4dm1n:h0pefu11yUn6ue$$abl3' | chpasswd 
+
+RUN chmod 700 /bin/entrypoint.sh 
+
+RUN chmod 555 /home/inge && \
+        chmod 555 /home/4dm1n
+
+EXPOSE 1025
+
+CMD [ "/bin/entrypoint.sh" ]    
