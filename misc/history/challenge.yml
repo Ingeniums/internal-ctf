@@ -1,10 +1,10 @@
-author: sabilhacker
+author: sabilhacker & poysa
 category: misc
 connection_info: nc -v chal.ctf.ingeniums.club 8080
 description: |
   > idk
 
-  author: @sabilhacker
+  author: @sabilhacker, @poysa
 difficulty: easy
 extra:
   decay: 50
