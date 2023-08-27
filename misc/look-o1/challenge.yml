@@ -1,0 +1,23 @@
+author: NiL0v3R
+category: misc
+description: |
+  > there is a crazy avocado who's saying nonsense about ingeniums's videos! Ugh what does he want?
+
+  author: @NiL0v3R
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{3sT0y_0sinT0o-r}
+image: .
+name: LoOk-O 1
+state: hidden
+tags:
+  - misc
+  - osint
+  - easy
+type: dynamic
+value: 500
+version: "0.1"

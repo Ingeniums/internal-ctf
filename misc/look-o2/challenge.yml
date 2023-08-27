@@ -1,0 +1,25 @@
+author: NiL0v3R
+category: misc
+description: |
+  > No no no!! we banned that crazy avocado so he doesn't spam our accounts but guess what! Now he's mentioning us in his OWN OTHER accounts!! 
+  >
+  > What's that dedication ?  I guess he's an eX-member.. i wonder what he's saying
+
+  author: @NiL0v3R
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{N0t_Ag4iN_TT}
+image: .
+name: LoOk-O 2
+state: hidden
+tags:
+  - misc
+  - osint
+  - easy
+type: dynamic
+value: 500
+version: "0.1"
