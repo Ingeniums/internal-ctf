@@ -1,0 +1,23 @@
+author: sabilhacker
+category: misc
+connection_info: nc -v chal.ctf.ingeniums.club 7000
+description: |
+  > idk
+
+  author: @sabilhacker
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{$h3lL_Env1r3m3nT_Var1AbL3}
+image: .
+name: envvar
+state: hidden
+tags:
+  - misc
+  - easy
+type: dynamic
+value: 500
+version: "0.1"
