@@ -1,0 +1,23 @@
+author: sabilhacker
+category: web
+connection_info: http://web.ctf.ingeniums.club:6002
+description: |
+  > idk
+
+  author: @sabilhacker
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - ingeniums{S3Rv3r_S1D3_T3mpl1tE_Is_Eeeeeasy_T000000_Inj3ct}
+image: .
+name: weather
+state: hidden
+tags:
+  - web
+  - easy
+type: dynamic
+value: 500
+version: "0.1"

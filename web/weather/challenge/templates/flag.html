@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body class="bg-blue-300 h-screen flex flex-col justify-center items-center text-blue-800">
+
+    <h1 class="text-3xl font-bold mb-5">The temperature has exceeded 49 in some countries!</h1>
+
+    <form action="/degree" method="POST" class="bg-white p-6 rounded-lg shadow-md w-1/3">
+        <div class="mb-4">
+            <label class="block text-blue-900 text-xl font-bold mb-2">Share with us how is it in yours</label>
+            <input name="degree" class="shadow appearance-none border rounded w-full py-2 px-3 text-blue-900 leading-tight focus:outline-none focus:shadow-outline-blue" placeholder="Enter temperature...">
+        </div>
+        <button type="submit" class="bg-blue-800 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue">Enter</button>
+    </form>
+
+</body>
+
+</html>
