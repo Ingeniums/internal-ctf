@@ -20,6 +20,7 @@ name: ret2win
 state: hidden
 tags:
   - pwn
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

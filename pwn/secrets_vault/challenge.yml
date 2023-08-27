@@ -21,6 +21,7 @@ name: secrets vault
 state: hidden
 tags:
   - pwn
+  - medium
 type: dynamic
 value: 500
 version: "0.1"

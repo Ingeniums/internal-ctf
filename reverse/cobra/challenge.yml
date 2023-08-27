@@ -18,6 +18,7 @@ name: cobra
 state: hidden
 tags:
   - reverse
+  - medium
 type: dynamic
 value: 500
 version: "0.1"

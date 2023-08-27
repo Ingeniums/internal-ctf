@@ -20,6 +20,7 @@ name: Birthday Party Game
 state: hidden
 tags:
   - crypto
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

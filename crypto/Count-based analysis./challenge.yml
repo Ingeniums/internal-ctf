@@ -26,6 +26,7 @@ name: Count-based Analysis
 state: hidden
 tags:
   - crypto
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

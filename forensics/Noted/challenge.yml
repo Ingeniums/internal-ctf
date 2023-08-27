@@ -20,6 +20,7 @@ name: Noted
 state: hidden
 tags:
   - forensics
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

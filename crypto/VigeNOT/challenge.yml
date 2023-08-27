@@ -8,7 +8,7 @@ description: |
   > NB: dont fotget the flag format.
 
   author: @m0urtada
-difficulty: easy
+difficulty: medium
 extra:
   decay: 50
   initial: 500
@@ -22,6 +22,7 @@ name: VigeNot
 state: hidden
 tags:
   - crypto
+  - medium
 type: dynamic
 value: 500
 version: "0.1"

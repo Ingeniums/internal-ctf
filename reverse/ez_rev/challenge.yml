@@ -18,6 +18,7 @@ name: ez_rev
 state: hidden
 tags:
   - reverse
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

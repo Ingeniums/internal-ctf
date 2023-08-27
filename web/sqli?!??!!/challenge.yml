@@ -19,6 +19,7 @@ name: sqli?!??!!
 state: hidden
 tags:
   - web
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

@@ -5,7 +5,7 @@ description: |
   > It's name is prepa shop but i found 1cs things also!!, maybe we can find the flag ??!
 
   author @poysa
-difficulty: easy
+difficulty: medium
 extra:
   decay: 50
   initial: 500
@@ -19,6 +19,7 @@ name: osci
 state: hidden
 tags:
   - web
+  - medium
 type: dynamic
 value: 500
 version: "0.1"

@@ -28,6 +28,7 @@ name: series of tubes
 state: hidden
 tags:
   - reverse
+  - medium
 type: dynamic
 value: 500
 version: "0.1"

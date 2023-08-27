@@ -18,6 +18,7 @@ name: globglob
 state: hidden
 tags:
   - misc
+  - easy
 type: dynamic
 value: 500
 version: "0.1"

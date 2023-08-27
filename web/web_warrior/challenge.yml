@@ -5,7 +5,7 @@ description: |
   > If I get a chance like this, I will attempt to access the websites blocked by the Algerian Ministry, like empqioklfd.ple,
 
   author: @poysa
-difficulty: easy
+difficulty: medium
 extra:
   decay: 50
   initial: 500
@@ -19,6 +19,7 @@ name: Web Warrior
 state: hidden
 tags:
   - web
+  - medium
 type: dynamic
 value: 500
 version: "0.1"

@@ -5,7 +5,7 @@ description: |
   > win the duel and you shall get the flag.
 
   author: @godsword
-difficulty: easy
+difficulty: medium
 extra:
   decay: 50
   initial: 500
@@ -19,6 +19,7 @@ name: duel
 state: hidden
 tags:
   - reverse
+  - medium
 type: dynamic
 value: 500
 version: "0.1"
