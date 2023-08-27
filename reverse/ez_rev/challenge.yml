@@ -1,0 +1,23 @@
+author: godsword
+category: reverse
+description: |
+  > placeholder
+
+  author: @godsword
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chal
+flags:
+  - ingeniums{Y0ur_typ1c4l_l1c3nse_k3y_ch4ll}
+image: .
+name: ez_rev
+state: hidden
+tags:
+  - reverse
+type: dynamic
+value: 500
+version: "0.1"
