@@ -1,0 +1,33 @@
+author: itskarudo
+category: reverse
+description: |
+  > THE INTERNET. IS NOT.
+  >
+  > THE INTERNET. IS NOT A BIG TRUCK.
+  >
+  > THE INTERNET. IS NOT.
+  >
+  > SOMETHING THAT YOU JUST DUMP SOMETHING ON.
+  >
+  > THE INTERNET.
+  >
+  > IT-IT-IT-IT'S A SERIES OF TUBES!
+
+  author: @itskarudo
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./chal
+flags:
+  - ingeniums{Th3_1nt3rn3T_!=_7rucK}
+image: .
+name: series of tubes
+state: hidden
+tags:
+  - reverse
+type: dynamic
+value: 500
+version: "0.1"
