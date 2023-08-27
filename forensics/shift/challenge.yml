@@ -1,0 +1,24 @@
+author: m0urtada
+category: forensics
+description: |
+  > placeholder
+
+  author: @m0urtada
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./encoded.jpg
+  - ./shift.py
+flags:
+  - ingeniums{w3_4r3_th3_B3st_F4m_3v3r}
+image: .
+name: shift
+state: hidden
+tags:
+  - forensics
+type: dynamic
+value: 500
+version: "0.1"
