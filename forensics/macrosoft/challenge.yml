@@ -1,0 +1,24 @@
+author: NiL0v3R
+category: forensics
+description: |
+  > This PowerPoint presentation is a bit sus ? Im used to pptx extension but what is pptm ? I guess i should find out what can this "m" do.
+
+  author: @NiL0v3R
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./MacroSoft.pptm
+flags:
+  - ingeniums{B3_4w4r3_0f_M4lw4r3s}
+image: .
+name: MacroSoft
+state: hidden
+tags:
+  - forensics
+  - easy
+type: dynamic
+value: 500
+version: "0.1"
