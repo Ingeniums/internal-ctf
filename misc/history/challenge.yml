@@ -2,7 +2,7 @@ author: sabilhacker & poysa
 category: misc
 connection_info: nc -v chal.ctf.ingeniums.club 8080
 description: |
-  > idk
+  > I tried to change the user with my username and password using su, but apparently it has no password argument, can you help me find another way?
 
   author: @sabilhacker, @poysa
 difficulty: easy
