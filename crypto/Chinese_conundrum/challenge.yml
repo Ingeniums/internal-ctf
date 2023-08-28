@@ -1,0 +1,25 @@
+author: Athelst4n
+category: crypto
+description: |
+  > Nothing here.
+
+  author: @Athelst4n
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./chall.py
+  - ./out.txt
+flags:
+  - CRT?l05T_b1t5?_No0o_pR0blem!
+image: .
+name: Chinese Conundrum
+state: hidden
+tags:
+  - crypto
+  - medium
+type: dynamic
+value: 500
+version: "0.1"
