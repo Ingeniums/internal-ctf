@@ -1,0 +1,24 @@
+author: NiL0v3R
+category: forensics
+description: |
+  > I wanna reach my BOSS so we can play PING-PONG but he's not responding!! hmmm...
+
+  author: @NiL0v3R
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./WireWeb-Lvl2.pcap
+flags:
+  - ingeniums{N0o0w_itZz_Pr0ToC0l5s_TiiiiiiiM3_956302084642602462462363626477}
+image: .
+name: WireWeb 2
+state: hidden
+tags:
+  - forensics
+  - medium
+type: dynamic
+value: 500
+version: "0.1"
