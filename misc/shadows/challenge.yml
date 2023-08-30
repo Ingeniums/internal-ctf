@@ -1,0 +1,22 @@
+author: NiL0v3R
+category: misc
+description: |
+  > this number contacted me suddenly: 133-308-439-497 and sent me that video.. it's a well done one but, i see some shadows here and there, use ur commands to make sure that the video is safe.
+
+  author: @NiL0v3R
+difficulty: medium
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+flags:
+  - Ingeniums{Y0u_H4v3_70_Lo0k_Cl053R}
+image: .
+name: Shadows
+state: hidden
+tags:
+  - misc
+  - medium
+type: dynamic
+value: 500
+version: "0.1"
