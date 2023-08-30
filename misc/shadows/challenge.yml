@@ -9,6 +9,8 @@ extra:
   decay: 50
   initial: 500
   minimum: 50
+files:
+  - ./Sh4d0w5.mp4
 flags:
   - Ingeniums{Y0u_H4v3_70_Lo0k_Cl053R}
 image: .
