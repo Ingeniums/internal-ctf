@@ -1,7 +1,7 @@
 author: NiL0v3R
 category: forensics
 description: |
-  > my files got into a fight ! you have a lot of things to fix here mate, but always remember, everyone will be better when they return to their origins, and then maybe, separated parts may reconnect!
+  > my files got into a fight! you have a lot of things to fix here mate, but always remember, everyone will be better when they *return to their origins*, and when their true feelings be *unhidden*, only then maybe, *separated parts may reconnect!*
 
   author: @NiL0v3R
 difficulty: medium
@@ -10,7 +10,7 @@ extra:
   initial: 500
   minimum: 50
 files:
-  - ./\dev\null
+  - ./-
 flags:
   - ingeniums{Gr34t_W0rK_M4sT3r_FiX3r}
 image: .

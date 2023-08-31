@@ -1,7 +1,7 @@
 author: NiL0v3R
 category: forensics
 description: |
-  > i guess someone else used my pc without me knowing that ? but luckily a wire-tool i have captured his network traffic while he was online, i guess we can know something about him if we analyse the traffic well, network packets may tell as a lot about person, specially If he made a request to his web page ? hmm i wonder which protocol will help me know a better information in my case.. maybe the one with port 80 ?
+  > I guess someone else used my pc without me knowing that ? but luckily a wire-tool I have captured his network traffic while he was online, I guess we can know something about him if we analyse the traffic well, network packets may tell as a lot about person, specially if he made a request to his web page ?
 
   author: @NiL0v3R
 difficulty: easy
