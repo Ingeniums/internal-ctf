@@ -2,7 +2,7 @@ author: sabilhacker
 category: misc
 connection_info: nc -v chal.ctf.ingeniums.club 7000
 description: |
-  > idk
+  > ever heard about the env variable??
 
   author: @sabilhacker
 difficulty: easy
