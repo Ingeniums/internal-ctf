@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tshirt Store</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/main.css')}}"
+    />
+  </head>
+
+  <body
+    class="m-0 h-full bg-gradient-to-br from-gray-800 to-green-900 text-white font-sans relative overflow-hidden"
+  >
+    <header
+      class="border-b-2 border-gray-700 py-4 px-8 md:px-20 flex justify-between items-center"
+    >
+      <nav>
+        <ul class="flex space-x-8 text-lg">
+          <li><a href="/" class="hover:text-blue-400">Home</a></li>
+          <li><a href="#" class="hover:text-blue-400">Contact</a></li>
+          <li><a href="/create" class="hover:text-blue-400">Store</a></li>
+        </ul>
+      </nav>
+
+      <button
+        class="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-full transition duration-300"
+      >
+        <a href="/create">Visit Store</a>
+      </button>
+    </header>
+
+    <main class="p-8 mt-8 mx-6 md:mx-20 space-y-8">
+      <h1 class="text-3xl md:text-6xl font-bold tracking-wider mb-6">
+        Welcome to our store
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="card transform transition duration-300 hover:scale-105">
+          <img
+            src="{{url_for('static',filename='images/game2.jpeg')}}"
+            alt="Game 2"
+            class="w-full h-72 object-cover rounded-lg shadow-md"
+          />
+        </div>
+        <div class="card transform transition duration-300 hover:scale-105">
+          <img
+            src="{{url_for('static',filename='images/game3.jpeg')}}"
+            alt="Game 3"
+            class="w-full h-72 object-cover rounded-lg shadow-md"
+          />
+        </div>
+        <div class="card transform transition duration-300 hover:scale-105">
+          <img
+            src="{{url_for('static',filename='images/game4.jpeg')}}"
+            alt="Game 4"
+            class="w-full h-72 object-cover rounded-lg shadow-md"
+          />
+        </div>
+        <div class="card transform transition duration-300 hover:scale-105">
+          <img
+            src="{{url_for('static',filename='images/AOT.jpeg')}}"
+            alt="AOT"
+            class="w-full h-72 object-cover rounded-lg shadow-md"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

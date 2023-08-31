@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tshirt Store</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/main.css')}}"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="m-0 h-full bg-gradient-to-br from-gray-800 to-green-900 text-white font-sans relative overflow-hidden"
+  >
+    <header
+      class="border-b-2 border-gray-700 py-4 px-8 md:px-20 flex justify-between items-center"
+    >
+      <nav>
+        <ul class="flex space-x-8 text-lg">
+          <li><a href="/" class="hover:text-teal-400">Home</a></li>
+          <li><a href="#" class="hover:text-teal-400">Company</a></li>
+          <li><a href="#" class="hover:text-teal-400">Design</a></li>
+          <li><a href="#" class="hover:text-teal-400">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="flex items-center justify-center h-screen p-8 mx-6 md:mx-20 space-y-8"
+    >
+      <form
+        action="/create"
+        method="post"
+        enctype="multipart/form-data"
+        class="flex flex-col space-y-6 w-full max-w-md mx-auto"
+      >
+        <div class="flex items-center space-x-4">
+          <label for="username" class="text-lg">Username:</label>
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="Enter your username"
+            class="flex-grow p-2 border rounded bg-gray-200 text-black"
+          />
+          <span
+            class="flex-no-shrink p-2 rounded text-white bg-blue-900 hover:bg-indigo-300 transition duration-300 cursor-pointer"
+          >
+            Browse <input type="file" name="xml" accept="image/svg" />
+          </span>
+        </div>
+
+        <input
+          type="submit"
+          value="Submit"
+          class="w-full p-2 border-2 border-teal-400 rounded text-teal-400 bg-opacity-20 bg-white hover:bg-opacity-40 hover:bg-teal-400 hover:text-white cursor-pointer transition duration-300"
+        />
+      </form>
+    </main>
+  </body>
+</html>

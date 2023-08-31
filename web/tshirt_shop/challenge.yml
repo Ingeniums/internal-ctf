@@ -1,0 +1,25 @@
+author: sabilhacker
+category: web
+connection_info: http://web.ctf.ingeniums.club:6003
+description: |
+  > Find the right path!
+
+  author: @sabilhacker
+difficulty: easy
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./togive.zip
+flags:
+  - ingeniums{4xT4ErN1L_XmL_3nTiti3S}
+image: .
+name: T-shirt Shop
+state: hidden
+tags:
+  - web
+  - easy
+type: dynamic
+value: 500
+version: "0.1"
