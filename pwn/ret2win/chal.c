@@ -3,9 +3,9 @@
 #include <string.h>
 
 void disable_buffering(void) {
-    setbuf(stdin, NULL);
-    setbuf(stdout, NULL); 
-    setbuf(stderr, NULL);
+  setbuf(stdin, NULL);
+  setbuf(stdout, NULL);
+  setbuf(stderr, NULL);
 }
 
 void VerY_s3cREt_fUnCti0N() {

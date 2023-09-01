@@ -11,6 +11,7 @@ extra:
   initial: 500
   minimum: 50
 files:
+  - ./shellcode1.c
   - ./challenge/chal
 flags:
   - ingeniums{5hellcode_inj3c71on_1s_d4ng3rou5!!}

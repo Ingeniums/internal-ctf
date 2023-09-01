@@ -12,6 +12,7 @@ extra:
   initial: 500
   minimum: 50
 files:
+  - ./chal.c
   - ./challenge/chal
 flags:
   - ingeniums{sEcREt_fuNctI0n$_ARe_nO_m4TCh_F0r_y0U!}
