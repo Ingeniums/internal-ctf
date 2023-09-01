@@ -23,6 +23,7 @@ RUN npx tailwindcss init
 COPY flag.txt /flag
 
 RUN chmod -R a-w /challenge
+RUN chmod a+w /challenge/uploads
 
 USER inge
 
