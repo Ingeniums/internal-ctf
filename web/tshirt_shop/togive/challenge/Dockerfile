@@ -16,12 +16,14 @@ RUN python -m pip install -r requirement.txt
 
 COPY . /challenge
 
+
 RUN npm install -D tailwindcss
 RUN npx tailwindcss init 
 
 COPY flag.txt /flag
 
 RUN chmod -R a-w /challenge
+RUN chmod a+w /challenge/uploads
 
 USER inge
 
